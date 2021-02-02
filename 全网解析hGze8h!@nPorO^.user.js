@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name              全网解析hGze8h!@nPorO^
-// @namespace         Lukas
-// @version           1.2.1
-// @description       解析用脚本(永不更新)
+// @namespace         全网解析hGze8h!@nPorO^
+// @version           0.12.3
+// @description       解析脚本(不定时更新)
 // @author            Lukas
-// @icon              data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAqElEQVQ4jdWSzQnDMAxGNUqQFskIHiefTt6o3SDeIAEJX9sNnA3cQ2ihLaZNSgsVfKcHT+iH6P8rC4ILxj3JgkDGGl20EhGZIJkgERG5aLVu6K0b+iZnjTeBC0ZjLcZa1g5anXVy1qnFHwRPOTrrucHqS4GxRiIiY43GWD4UaNkuEByccXp7BBMkYyzGWEyQ1iVidsbc4neC3WfMgnAFW5MF4VcP/8W6APwOUEnkTWeGAAAAAElFTkSuQmCC
+// @icon              data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAgCAYAAACVU7GwAAABgUlEQVRYhe2W33HCMAzGPUJH8EkLdIMyQjYoG5THSC/NBnQDGKEbJBvAnZXwGDaADeiD49SBlPy5QKAX330vvrP8i6R8lhKkWJBPDyPgjRodokYllPKW0eFMkE8GKVE3WAY4EuSTAY4q+0jJBDVBTVBPB5VqfhWkWICWuY5ebga10/TmZIA/rkG5oEXggyC994ES4JV/rwBvKlB1agPlPw9Gh7NOUE2ObpASJwHatoFKkeeC/H0Gt2oqqZepvX+vATr27qmyJ4rMGB3OBHjvlzQF/myCGrTRz6H8ffe1NhOU15X0rlBKKbXTob4oKVLsl/TuUG5lSEG112gxKpQALaxVlJlaj5Yp2/CUV/7osXrK9tHvWG2AjinyvO5sJygbtFDhrE1QGVIgQEu/d1Lgr/Y+Rbl/ryv5YI5ukJKdDvU1mGvn6x0dOHISpHVrKOB9hhS0gTk/b13cu7cw4N5TggvYBeYC6t/PUxPUBPW0ULWObufveHC59/EvR3d0DyOg7Q+CgAuYIqmDFAAAAABJRU5ErkJggg==
 // @require           https://cdn.bootcss.com/jquery/3.5.1/jquery.min.js
 // @match             *://v.qq.com/x/cover/*
 // @match             *://m.v.qq.com/x/cover/*
@@ -53,18 +53,11 @@
     var parseInterfaceList = [];
     var selectedInterfaceList = [];
     var originalInterfaceList = [
-        { name:"线路一", type:"1", url:"https://z1.m1907.cn/?jx="},
-        { name:"线路二", type:"1", url:"https://vip.66parse.club/?url="},
-        { name:"线路三", type:"1", url:"https://api.tv920.com/jx/?url="},
-        { name:"线路四", type:"1", url:"https://www.h8jx.com/jiexi.php?url="},
-        { name:"线路五", type:"1", url:"https://jsap.attakids.com/?url="},
-        { name:"线路六", type:"1", url:"https://jx.m3u8.tv/jiexi/?url="},
-        { name:"线路七", type:"1", url:"https://www.41478.net/?url="},
-        { name:"线路八", type:"1", url:"https://jx.yparse.com/index.php?url="},
-        { name:"线路九", type:"1", url:"https://jiexi.q-q.wang/?url="},
-        { name:"线路十", type:"1", url:"https://jx.youyitv.com/?url="},
-        { name:"线路十一", type:"1", url:"https://api.bingdou.net/?url="},
-        { name:"线路十二", type:"1", url:"https://www.8090.la/api/?url="},
+        { name:"线路一(推荐,速度快,不可选线)", type:"1", url:"https://vip.66parse.club/?url="},
+        { name:"线路二(推荐,速度较快,可选线)", type:"1", url:"https://jqaaa.com/jx.php?url="},
+        { name:"线路三(速度中,不可选线)", type:"1", url:"https://www.h8jx.com/jiexi.php?url="},
+        { name:"线路四(速度中,可选线)", type:"1", url:"https://www.12352.vip/?v="},
+        { name:"线路五(速度慢,可选线)", type:"1", url:"https://2.08bk.com/?url="}
     ];
 
 
@@ -182,7 +175,8 @@
 <div style='font-size:20px; text-align:center; color:#389fff; line-height:21px;'>VIP视频解析</div>
 <ul style='margin:0 10px;'>
 ` + innerli + `
-);
+<div style='clear:both;'></div>
+`);
 
     $("body").append(html);
 
