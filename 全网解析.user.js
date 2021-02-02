@@ -67,6 +67,7 @@
         { name:"线路十", type:"1", url:"https://jx.youyitv.com/?url="},
         { name:"线路十一", type:"1", url:"https://api.bingdou.net/?url="},
         { name:"线路十二", type:"1", url:"https://www.8090.la/api/?url="},
+        { name:"线路十三", type:"1", url:"https://okjx.cc/?url="},
         //--------------------------------------------------------------------------------------
         { name:"思古解析", type:"2", url:"https://jsap.attakids.com/?url="},
         { name:"380k解析", type:"2", url:"https://jiexi.380k.com/?url="},
