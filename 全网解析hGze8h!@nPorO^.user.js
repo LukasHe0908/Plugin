@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name              全网解析hGze8h!@nPorO^
 // @namespace         全网解析hGze8h!@nPorO^
-// @version           0.12.3
+// @version           1.0.3
 // @description       解析脚本(不定时更新)
 // @author            Lukas
 // @icon              data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAgCAYAAACVU7GwAAABgUlEQVRYhe2W33HCMAzGPUJH8EkLdIMyQjYoG5THSC/NBnQDGKEbJBvAnZXwGDaADeiD49SBlPy5QKAX330vvrP8i6R8lhKkWJBPDyPgjRodokYllPKW0eFMkE8GKVE3WAY4EuSTAY4q+0jJBDVBTVBPB5VqfhWkWICWuY5ebga10/TmZIA/rkG5oEXggyC994ES4JV/rwBvKlB1agPlPw9Gh7NOUE2ObpASJwHatoFKkeeC/H0Gt2oqqZepvX+vATr27qmyJ4rMGB3OBHjvlzQF/myCGrTRz6H8ffe1NhOU15X0rlBKKbXTob4oKVLsl/TuUG5lSEG112gxKpQALaxVlJlaj5Yp2/CUV/7osXrK9tHvWG2AjinyvO5sJygbtFDhrE1QGVIgQEu/d1Lgr/Y+Rbl/ryv5YI5ukJKdDvU1mGvn6x0dOHISpHVrKOB9hhS0gTk/b13cu7cw4N5TggvYBeYC6t/PUxPUBPW0ULWObufveHC59/EvR3d0DyOg7Q+CgAuYIqmDFAAAAABJRU5ErkJggg==
@@ -53,11 +53,8 @@
     var parseInterfaceList = [];
     var selectedInterfaceList = [];
     var originalInterfaceList = [
-        { name:"线路一(推荐,速度快,不可选线)", type:"1", url:"https://vip.66parse.club/?url="},
-        { name:"线路二(推荐,速度较快,可选线)", type:"1", url:"https://jqaaa.com/jx.php?url="},
-        { name:"线路三(速度中,不可选线)", type:"1", url:"https://www.h8jx.com/jiexi.php?url="},
-        { name:"线路四(速度中,可选线)", type:"1", url:"https://www.12352.vip/?v="},
-        { name:"线路五(速度慢,可选线)", type:"1", url:"https://2.08bk.com/?url="}
+        { name:"线路一 (速度慢,可选线)", type:"1", url:"https://2.08bk.com/?url="},
+        { name:"持续更新中... 更多线路敬请期待!", type:"1", url:"https://www.baidu.com/baidu?wd="},
     ];
 
 
