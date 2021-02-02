@@ -54,6 +54,7 @@
     var selectedInterfaceList = [];
     var originalInterfaceList = [
         { name:"线路一 (速度慢,可选线)", type:"1", url:"https://2.08bk.com/?url="},
+        { name:"线路二 (速度中,不可选线)", type:"1", url:"https://www.administrator5.com/index.php?url="},
         { name:"更多线路正在寻找... 敬请期待!", type:"1", url:"https://www.baidu.com/baidu?wd="},
     ];
 
