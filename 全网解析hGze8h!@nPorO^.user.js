@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name              全网解析hGze8h!@nPorO^
 // @namespace         全网解析hGze8h!@nPorO^
-// @version           1.0.3
+// @version           1.1.0
 // @description       解析脚本(不定时更新)
 // @author            Lukas
 // @icon              data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAgCAYAAACVU7GwAAABgUlEQVRYhe2W33HCMAzGPUJH8EkLdIMyQjYoG5THSC/NBnQDGKEbJBvAnZXwGDaADeiD49SBlPy5QKAX330vvrP8i6R8lhKkWJBPDyPgjRodokYllPKW0eFMkE8GKVE3WAY4EuSTAY4q+0jJBDVBTVBPB5VqfhWkWICWuY5ebga10/TmZIA/rkG5oEXggyC994ES4JV/rwBvKlB1agPlPw9Gh7NOUE2ObpASJwHatoFKkeeC/H0Gt2oqqZepvX+vATr27qmyJ4rMGB3OBHjvlzQF/myCGrTRz6H8ffe1NhOU15X0rlBKKbXTob4oKVLsl/TuUG5lSEG112gxKpQALaxVlJlaj5Yp2/CUV/7osXrK9tHvWG2AjinyvO5sJygbtFDhrE1QGVIgQEu/d1Lgr/Y+Rbl/ryv5YI5ukJKdDvU1mGvn6x0dOHISpHVrKOB9hhS0gTk/b13cu7cw4N5TggvYBeYC6t/PUxPUBPW0ULWObufveHC59/EvR3d0DyOg7Q+CgAuYIqmDFAAAAABJRU5ErkJggg==
@@ -121,7 +121,7 @@
     }
 
     var videoPlayer = $("<div id='iframe-div' style='width:100%;height:100%;z-index:1000;'><iframe id='iframe-player' frameborder='0' allowfullscreen='true' width='100%' height='100%'></iframe></div>");
-    var ImgBase64 =`data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAABiklEQVR4nO3VMU4CURhF4YtBl2DjRqR3D5ZKYsmGCCSExj2AlhRuxEI2gSGRxj9kwvjMnOJ85X0zrzmZzOh+dTjkvM8kuyTLJO+npz6mo7Mv6G+uOt6+S/KY5C3JIslNeUJNjS+47CXJdZLncqJmur6Q356SPJRVgwU5mpVFzfQJMimLBg1yWxY10yeI/pFBYAwCYxAYg8AYBMYgMAaBMQiMQWAMAmMQGIPAGATGIDAGgTEIjEFgDAJjEBiDwBgExiAwBoExCIxBYAwCYxAYg8AYBMYgMAaBMQiMQWAMAmMQGIPAGATGIDAGgTEIjEFgDAJjEBiDwBgExiAwBoExCIxBYAwCYxAYg8AYBMYgMAaBMQiMQWAMAmMQGIPAGATGIDAGgTEIjEFgDAJjEBiDwBgExiAwBoExCIxBYAwCYxAYg8AYBMYgMAaBMQiMQWAMAmMQGIPAGATGIDB9guzLomb6BNmVRYMGmZdFzVwa5DXJtqwaJMg6ybSsamrccdnXzz9jkWRTTtVWkm8mnRNrZqgq5QAAAABJRU5ErkJggg==`;
+    var ImgBase64 =`data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAE7WlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDggNzkuMTY0MDM2LCAyMDE5LzA4LzEzLTAxOjA2OjU3ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgMjEuMCAoV2luZG93cykiIHhtcDpDcmVhdGVEYXRlPSIyMDIxLTAyLTAyVDE4OjI0OjA2KzA4OjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAyMS0wMi0wMlQxODoyNzo0MSswODowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyMS0wMi0wMlQxODoyNzo0MSswODowMCIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MjVlMDVkYjQtOWZkNy0zYjRmLThmMTgtOWE1NWEzYmNkNWViIiB4bXBNTTpEb2N1bWVudElEPSJ4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`;
     var innerList = [];
     var outerList = [];
     var innerli = "";
@@ -251,87 +251,5 @@
         var s = document.createElement('script');
         s.setAttribute('src',url);
         document.body.appendChild(s);
-    }
-
-
-    switch (host) {
-        case 'www.iqiyi.com':
-            //--------------------------------------------------------------------------------
-            unsafeWindow.rate = 0;
-            unsafeWindow.Date.now = () => {
-                return new unsafeWindow.Date().getTime() + (unsafeWindow.rate += 1000);
-            }
-            setInterval(() => {
-                unsafeWindow.rate = 0;
-            }, 600000);
-            //--------------------------------------------------------------------------------
-            setInterval(() => {
-                if (document.getElementsByClassName("cupid-public-time")[0] != null) {
-                    $(".skippable-after").css("display", "block");
-                    document.getElementsByClassName("skippable-after")[0].click();
-                }
-                $(".qy-player-vippay-popup").css("display", "none");
-                $(".black-screen").css("display", "none");
-            }, 500);
-            break
-        case 'v.qq.com':
-            //--------------------------------------------------------------------------------
-            setInterval(() => { //视频广告加速
-                $(".txp_ad").find("txpdiv").find("video")[0].currentTime = 1000;
-                $(".txp_ad").find("txpdiv").find("video")[1].currentTime = 1000;
-            }, 1000)
-            //--------------------------------------------------------------------------------
-            setInterval(() => {
-                var txp_btn_volume = $(".txp_btn_volume");
-                if (txp_btn_volume.attr("data-status") === "mute") {
-                    $(".txp_popup_volume").css("display", "block");
-                    txp_btn_volume.click();
-                    $(".txp_popup_volume").css("display", "none");
-                }
-                //$("txpdiv[data-role='hd-ad-adapter-adlayer']").attr("class", "txp_none");
-                $(".mod_vip_popup").css("display", "none");
-                $(".tvip_layer").css("display", "none");
-                $("#mask_layer").css("display", "none");
-            }, 500);
-            break
-        case 'v.youku.com':
-            //--------------------------------------------------------------------------------
-            window.onload = function () {
-                if (!document.querySelectorAll('video')[0]) {
-                    setInterval(() => {
-                        document.querySelectorAll('video')[1].playbackRate = 16;
-                    }, 100)
-                }
-            }
-            //--------------------------------------------------------------------------------
-            setInterval(() => {
-                var H5 = $(".h5-ext-layer").find("div")
-                if(H5.length != 0){
-                    $(".h5-ext-layer div").remove();
-                    var control_btn_play = $(".control-left-grid .control-play-icon");
-                    if (control_btn_play.attr("data-tip") === "播放") {
-                        $(".h5player-dashboard").css("display", "block");
-                        control_btn_play.click();
-                        $(".h5player-dashboard").css("display", "none");
-                    }
-                }
-                $(".information-tips").css("display", "none");
-            }, 500);
-            break
-        case 'www.mgtv.com':
-            break
-        case 'tv.sohu.com':
-            setInterval(() => {
-                $(".x-video-adv").css("display", "none");
-                $(".x-player-mask").css("display", "none");
-                $("#player_vipTips").css("display", "none");
-            }, 500);
-            break
-
-        case 'www.bilibili.com':
-            setInterval(() => {
-                $(".player-limit-mask").remove();
-            }, 500);
-            break
     }
 })();
