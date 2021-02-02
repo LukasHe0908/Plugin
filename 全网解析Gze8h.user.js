@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name              全网解析hGze8h!@nPorO^
-// @namespace         全网解析hGze8h!@nPorO^
+// @namespace         全网解析Gze8h
 // @version           1.1.2
 // @description       解析脚本(不定时更新)
 // @author            Lukas
