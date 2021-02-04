@@ -5,8 +5,7 @@
 1. Firefox浏览器：[Tampermonkey](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/) 、Greasemonkey 4
 2. Chrome浏览器：[Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
     * 访问不了[Chrome 网上应用店](https://chrome.google.com/webstore/category/extensions)的同鞋可以到下面的地址下载crx文件。下载下来的crx文件可能不能直接安装，需要手动拖到扩展管理界面（一般为`chrome://extensions/`）中，应该就能安装成功了：
-        * [Tampermonkey各版本百度网盘](https://pan.baidu.com/s/1nuCc4Al)
-        * [常用Crx离线安装包下载](https://yurl.sinaapp.com/crx2.php)
+           * [常用Crx离线安装包下载](https://yurl.sinaapp.com/crx2.php)
     * 国内的360极速浏览器、猎豹浏览器等其实上就是Chrome加个壳，装Tampermonkey就行了
     * 搜狗高速浏览器：[Tampermonkey Legacy](https://ie.sogou.com/app/app_4326.html)
     * Yandex Browser 手机版：详见：[希望可以支持一下手机版的网页](https://github.com/ipcjs/bilibili-helper/issues/112)
