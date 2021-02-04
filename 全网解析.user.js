@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name              全网解析
 // @namespace         Lukas
-// @version           1.2.12
+// @version           1.2.11
 // @description       自用解析脚本
 // @author            Lukas
 // @icon              https://cdn.jsdelivr.net/gh/LukasHe0908/imgur@main/img/%E5%85%A8%E7%BD%91%E8%A7%A3%E6%9E%90.user.js.22uhef9d3cyo.png
