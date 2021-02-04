@@ -1,15 +1,19 @@
 // ==UserScript==
-// @name                自动跳转
-// @name:zh-cn          自动跳转
-// @name:en             Auto Redirecting
-// @description         自动跳转
-// @description:zh-cn   自动跳转
-// @description:en      Auto Redirecting
-// @namespace           Lukas
-// @version             0.1.0
-// @author              Lukas
-// @match               *.jjwxc.net/*
-// @grant               none
+// @name              自动跳转
+// @name:zh-cn        自动跳转
+// @name:en           Auto Redirecting
+// @description       自动跳转
+// @description:zh-cn 自动跳转
+// @description:en    Auto Redirecting
+// @namespace         Lukas
+// @version           0.1.0
+// @author            Lukas
+// @updateURL         https://cdn.jsdelivr.net/gh/LukasHe0908/Plugin@main/Auto-Redirecting.user.js
+// @downloadURL       https://cdn.jsdelivr.net/gh/LukasHe0908/Plugin@main/Auto-Redirecting.user.js
+// @homepage          https://www.google.com/search?q=homepage
+// @supportURL        https://www.google.com/search?q=support
+// @match             *.jjwxc.net/*
+// @grant             none
 // ==/UserScript==
 
 (function() {
