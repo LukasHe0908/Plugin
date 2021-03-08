@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name              全网解析
 // @namespace         Lukas
-// @version           1.2.12
+// @version           1.2.13
 // @description       自用解析脚本
 // @author            Lukas
 // @icon              https://cdn.jsdelivr.net/gh/LukasHe0908/imgur@main/img/%E5%85%A8%E7%BD%91%E8%A7%A3%E6%9E%90.user.js.22uhef9d3cyo.png
@@ -83,7 +83,6 @@
         { name:"云解析", type:"2", url:"https://jx.yparse.com/index.php?url="},
         { name:"tv920解析", type:"2", url:"https://api.tv920.com/vip/?url="},
         { name:"全网解析", type:"2", url:"https://jx.116kan.com/?url="},
-        { name:"思古解析(占用警告)", type:"2", url:"https://jsap.attakids.com/?url="},
     ];
 
 
