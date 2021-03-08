@@ -195,7 +195,7 @@
 <div class='vip_mod_box_action' >
 <div style='display:flex;'>
 <div style='width:320px; padding:30px 0;'>
-<div style='font-size:20px; text-align:center; color:#389fff; line-height:15px;'>*代表占用高,^代表速度慢</div>
+<div style='font-size:12px; text-align:center; color:#389fff; line-height:15px;'>*代表占用高,^代表速度慢</div>
 <div style='font-size:20px; text-align:center; color:#389fff; line-height:21px;'>VIP视频解析（内嵌)</div>
 <ul style='margin:0 10px;'>
 ` + innerli + `
