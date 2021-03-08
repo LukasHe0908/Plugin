@@ -64,22 +64,20 @@
         { name:"线路一", type:"1", url:"https://z1.m1907.cn/?jx="},
         { name:"线路二", type:"1", url:"https://vip.66parse.club/?url="},
         { name:"线路三", type:"1", url:"https://api.tv920.com/jx/?url="},
-        { name:"线路四", type:"1", url:"https://www.h8jx.com/jiexi.php?url="},
-        { name:"线路五(占用警告)", type:"1", url:"https://jsap.attakids.com/?url="},
+        { name:"线路四*", type:"1", url:"https://www.h8jx.com/jiexi.php?url="},
+        { name:"线路五*", type:"1", url:"https://jsap.attakids.com/?url="},
         { name:"线路六", type:"1", url:"https://jx.m3u8.tv/jiexi/?url="},
         { name:"线路七", type:"1", url:"https://www.41478.net/?url="},
         { name:"线路八", type:"1", url:"https://jx.yparse.com/index.php?url="},
-        { name:"线路九", type:"1", url:"https://jiexi.q-q.wang/?url="},
+        { name:"线路九^", type:"1", url:"https://jiexi.q-q.wang/?url="},
         { name:"线路十", type:"1", url:"https://jx.youyitv.com/?url="},
-        { name:"线路十一", type:"1", url:"https://api.bingdou.net/?url="},
-        { name:"线路十二", type:"1", url:"https://www.8090.la/api/?url="},
-        { name:"线路十三", type:"1", url:"https://okjx.cc/?url="},
-        { name:"线路十四", type:"1", url:"https://www.administrator5.com/index.php?url="},
-        { name:"线路十五", type:"1", url:"https://www.cuan.la/?url="},
+        { name:"线路十一*", type:"1", url:"https://www.8090.la/api/?url="},
+        { name:"线路十二", type:"1", url:"https://okjx.cc/?url="},
+        { name:"线路十三^", type:"1", url:"https://www.administrator5.com/index.php?url="},
+        { name:"线路十四", type:"1", url:"https://www.cuan.la/?url="},
         //--------------------------------------------------------------------------------------
         { name:"万能解析", type:"2", url:"https://www.cuan.la/?url="},
         { name:"380k解析", type:"2", url:"https://jiexi.380k.com/?url="},
-        { name:"冰豆解析", type:"2", url:"https://api.bingdou.net/?url="},
         { name:"云解析", type:"2", url:"https://jx.yparse.com/index.php?url="},
         { name:"tv920解析", type:"2", url:"https://api.tv920.com/vip/?url="},
     ];
@@ -197,12 +195,13 @@
 <div class='vip_mod_box_action' >
 <div style='display:flex;'>
 <div style='width:320px; padding:30px 0;'>
-<div style='font-size:20px; text-align:center; color:#389fff; line-height:21px;'>VIP视频解析(内嵌)</div>
+<div style='font-size:20px; text-align:center; color:#389fff; line-height:15px;'>*代表占用高,^代表速度慢</div>
+<div style='font-size:20px; text-align:center; color:#389fff; line-height:21px;'>VIP视频解析（内嵌)</div>
 <ul style='margin:0 10px;'>
 ` + innerli + `
 <div style='clear:both;'></div>
 </ul>
-<div style='font-size:20px; text-align:center; color:#389fff; line-height:21px;'>B站大会员解析(内嵌)</div>
+<div style='font-size:20px; text-align:center; color:#389fff; line-height:21px;'>B站大会员解析（内嵌)</div>
 <ul style='margin:0 10px;'>
 ` + outerli + `
 <div style='clear:both;'></div>
