@@ -5,9 +5,8 @@
 // @description       自用解析脚本
 // @author            Lukas
 // @icon              https://cdn.jsdelivr.net/gh/LukasHe0908/imgur@main/img/%E5%85%A8%E7%BD%91%E8%A7%A3%E6%9E%90.user.js.22uhef9d3cyo.png
-// @updateURL         https://raw.githubusercontent.com/LukasHe0908/Plugin/main/%E5%85%A8%E7%BD%91%E8%A7%A3%E6%9E%90.user.js
-// https://cdn.jsdelivr.net/gh/LukasHe0908/Plugin@main/%E5%85%A8%E7%BD%91%E8%A7%A3%E6%9E%90.user.js
-// @downloadURL       https://raw.githubusercontent.com/LukasHe0908/Plugin/main/%E5%85%A8%E7%BD%91%E8%A7%A3%E6%9E%90.user.js
+// @updateURL         https://cdn.jsdelivr.net/gh/LukasHe0908/Plugin@main/%E5%85%A8%E7%BD%91%E8%A7%A3%E6%9E%90.user.js
+// @downloadURL       https://cdn.jsdelivr.net/gh/LukasHe0908/Plugin@main/%E5%85%A8%E7%BD%91%E8%A7%A3%E6%9E%90.user.js
 // @homepage          https://github.com/LukasHe0908/Plugin
 // @supportURL        https://github.com/LukasHe0908/Plugin/blob/main/README.md
 // @compatible        chrome
