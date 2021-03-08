@@ -66,7 +66,7 @@
         { name:"线路二", type:"1", url:"https://vip.66parse.club/?url="},
         { name:"线路三", type:"1", url:"https://api.tv920.com/jx/?url="},
         { name:"线路四", type:"1", url:"https://www.h8jx.com/jiexi.php?url="},
-        { name:"线路五", type:"1", url:"https://jsap.attakids.com/?url="},
+        { name:"线路五(占用警告)", type:"1", url:"https://jsap.attakids.com/?url="},
         { name:"线路六", type:"1", url:"https://jx.m3u8.tv/jiexi/?url="},
         { name:"线路七", type:"1", url:"https://www.41478.net/?url="},
         { name:"线路八", type:"1", url:"https://jx.yparse.com/index.php?url="},
@@ -78,13 +78,13 @@
         { name:"线路十四", type:"1", url:"https://www.administrator5.com/index.php?url="},
         { name:"线路十五", type:"1", url:"https://www.cuan.la/?url="},
         //--------------------------------------------------------------------------------------
-        { name:"思古解析(占用警告)", type:"2", url:"https://jsap.attakids.com/?url="},
+        { name:"万能解析", type:"2", url:"https://www.cuan.la/?url="},
         { name:"380k解析", type:"2", url:"https://jiexi.380k.com/?url="},
         { name:"冰豆解析", type:"2", url:"https://api.bingdou.net/?url="},
         { name:"云解析", type:"2", url:"https://jx.yparse.com/index.php?url="},
         { name:"tv920解析", type:"2", url:"https://api.tv920.com/vip/?url="},
         { name:"全网解析", type:"2", url:"https://jx.116kan.com/?url="},
-        { name:"万能解析", type:"2", url:"https://www.cuan.la/?url="},
+        { name:"思古解析(占用警告)", type:"2", url:"https://jsap.attakids.com/?url="},
     ];
 
 
