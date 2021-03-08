@@ -82,7 +82,6 @@
         { name:"冰豆解析", type:"2", url:"https://api.bingdou.net/?url="},
         { name:"云解析", type:"2", url:"https://jx.yparse.com/index.php?url="},
         { name:"tv920解析", type:"2", url:"https://api.tv920.com/vip/?url="},
-        { name:"全网解析", type:"2", url:"https://jx.116kan.com/?url="},
     ];
 
 
